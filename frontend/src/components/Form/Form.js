@@ -30,7 +30,7 @@ function Form({ setRecommendations }) {
 
   return (
     <form
-      className="max-w-md mx-auto p-4 bg-white rounded-lg shadow-md"
+      className="max-w-md mx-auto p-4 bg-white rounded-lg shadow-md max-md:max-w-full"
       onSubmit={handleSubmit}
     >
       <Preferences
